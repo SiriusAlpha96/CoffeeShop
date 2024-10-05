@@ -1,0 +1,1 @@
+This is static html and css coffee shop website
