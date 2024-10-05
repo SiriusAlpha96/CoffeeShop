@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="all-content">
+      <!-- Navbar -->
+      <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="logo"
+            ><img class="rounded-2 ms-4" src="../public/images/logo.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
+              <li class="nav-item ms-1 fw-bold text-dark">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ms-1 fw-bold text-dark ">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item ms-1 fw-bold text-dark">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item ms-1 fw-bold text-dark">
+                <a class="nav-link" href="#product">Product</a>
+              </li>
+              <li class="nav-item ms-1 fw-bold text-dark">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item ms-1 fw-bold text-dark">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item ms-1 fw-bold text-dark">
+                <a class="nav-link" href="#blog">Blogs</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn  bg-dark text-white border border-1" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- home section -->
+      <section id="home">
+            <div class="pt-4 ms-2">
+                  <h3 class="fs-7 fw-bold text-white text-center mt-5 pt-5">Start Your Day With a <br> Fresh Coffee</h3>
+                  <p class="mt-2 text-white text-center d-inline-block justify-content-center m-4 p-4 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, consequuntur delectus neque soluta architecto expedita. Eligendi accusamus explicabo, nam quas id voluptatem, amet quod vitae qui laboriosam nulla doloribus eum.
+                  <br>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, perspiciatis debitis atque sed itaque iusto doloremque tenetur voluptas fugiat corrupti ut animi placeat temporibus alias, impedit vitae qui iure quasi.
+                  </p>
+                  <button class="btn rounded-3 border mx-auto fw-bold" id="btn">Shop Now</button>
+            </div>
+
+      </section>
+
+      <!-- about section -->
+       <div class="bg-white" id="about">
+            <div class="container pt-5">
+                  <div class="text-center mb-5 fw-bold heading">About<span > Us</span></div>
+                  <div class="row">
+                        <div class="col-md-6">
+                              <div class="card rounded rounded-3">
+                                    <img src="../public/images/about.png" alt="" class="rounded rounded-3">
+                              </div>
+                        </div>
+                        <div class="col-md-6">
+                              <h3>What Makes Our Coffee Special?</h3>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, incidunt fuga. Molestiae omnis explicabo enim at eaque maxime blanditiis adipisci. Hic quod cum alias soluta sit. Eum molestiae optio voluptatibus?<br><br>
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus animi saepe perspiciatis sequi recusandae eius molestias fuga hic, voluptatibus modi, atque suscipit quam cumque! Unde debitis molestiae facilis ut perferendis?<br><br>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos rerum nulla explicabo maiores repellendus. Sint hic rerum debitis provident! Quasi repellendus rerum nobis laudantium quas nam vero quidem, suscipit excepturi.
+                              </p>
+                              <button id="btn" class="btn ">Learn More.</button>
+                        </div>
+                  </div>
+            </div>
+       </div>
+
+       <!-- top cards -->
+
+       <section class="cards ">
+            <div class="card-header text-center fw-bold m-5">Top <span>Categories</span></div>
+            <div class="container mt-5">
+                  <div class="row">
+                        <div class="col-md-4 py-md-0">
+                              <div class="ani card rounded rounded-4">
+                                    <img src="../public/images/c1.png" class="rounded rounded-3">
+                              </div>
+                        </div>
+                        <div class="col-md-4 py-md-0">
+                              <div class="ani card rounded rounded-4">
+                                    <img src="../public/images/c2.png" class="rounded rounded-3">
+                              </div>
+                        </div>
+                        <div class="col-md-4 py-md-0">
+                              <div class="ani card rounded rounded-4">
+                                    <img src="../public/images/c3.png" class="rounded rounded-3">
+                              </div>
+                        </div>
+                  </div>
+            </div>
+       </section>
+       <!-- menu -->
+
+       <section class="menu" id="menu">
+            <div class="container">
+                  <div class="heading2 mb-5 pb-3" >Menu</div>
+            </div>
+            <div class="container" id="container2">
+                  <div class="row">
+                        <div class="col-md-3 py-3 py-md-0 mb-5">
+                              <div class="card">
+                                    <img src="../public/images/m1.png" alt="">
+                                    <div class="card-body">
+                                          <div class="star text-center">
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                          </div>
+                                          <h3>Coffee</h3>
+                                          <p>$99 <strike> $100</strike><span><i class="bi bi-cart-fill"></i></span></p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-3 py-3 py-md-0">
+                              <div class="card">
+                                    <img src="../public/images/m2.png" alt="">
+                                    <div class="card-body">
+                                          <div class="star text-center">
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                          </div>
+                                          <h3>Coffee</h3>
+                                          <p>$90 <strike> $110</strike><span><i class="bi bi-cart-fill"></i></span></p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-3 py-3 py-md-0">
+                              <div class="card">
+                                    <img src="../public/images/m3.png" alt="">
+                                    <div class="card-body">
+                                          <div class="star text-center">
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                          </div>
+                                          <h3>Coffee</h3>
+                                          <p>$100 <strike> $200</strike><span><i class="bi bi-cart-fill"></i></span></p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-3 py-3 py-md-0">
+                              <div class="card">
+                                    <img src="../public/images/m4.png" alt="">
+                                    <div class="card-body">
+                                          <div class="star text-center">
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                          </div>
+                                          <h3>Coffee</h3>
+                                          <p>$120 <strike> $150</strike><span><i class="bi bi-cart-fill"></i></span></p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-3 py-3 py-md-0">
+                              <div class="card">
+                                    <img src="../public/images/m5.png" alt="">
+                                    <div class="card-body">
+                                          <div class="star text-center">
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                          </div>
+                                          <h3>Coffee</h3>
+                                          <p>$200 <strike> $300</strike><span><i class="bi bi-cart-fill"></i></span></p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-3 py-3 py-md-0">
+                              <div class="card">
+                                    <img src="../public/images/m6.png" alt="">
+                                    <div class="card-body">
+                                          <div class="star text-center">
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                          </div>
+                                          <h3>Coffee</h3>
+                                          <p>$30 <strike> $50</strike><span><i class="bi bi-cart-fill"></i></span></p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-3 py-3 py-md-0">
+                              <div class="card">
+                                    <img src="../public/images/m7.png" alt="">
+                                    <div class="card-body">
+                                          <div class="star text-center">
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                          </div>
+                                          <h3>Coffee</h3>
+                                          <p>$100 <strike> $200</strike><span><i class="bi bi-cart-fill"></i></span></p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-3 py-3 py-md-0">
+                              <div class="card ">
+                                    <img src="../public/images/m8.png" alt="">
+                                    <div class="card-body">
+                                          <div class="star text-center">
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                                <i class="bi bi-star fw-bold"></i>
+                                          </div>
+                                          <h3>Coffee</h3>
+                                          <p>$120 <strike> $150</strike><span><i class="bi bi-cart-fill"></i></span></p>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+       </section>
+
+       <!-- product -->
+
+       <section class="product" id="product">
+            <div class="container">
+                  <div class="heading4">Products</div>
+            </div>
+            <div class="container mt-5" id="container3">
+                  <div class="row">
+                        <div class="col-md-3 py-3 py-md-0">
+                              <div class="card h-100">
+                                    <img src="../public/images/arabica coffee.png" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                          <h3 class="card-title">Arabic Coffee</h3>
+                                          <p class="card-text">$120 <strike>$170</strike><span class="bi bi-cart-fill"></span></p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-3 py-3 py-md-0">
+                              <div class="card h-100">
+                                    <img src="../public/images/Cappuccino coffee.png" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                          <h3 class="card-title">Cappunccino Coffee</h3>
+                                          <p class="card-text">$200 <strike>$370</strike><span class="bi bi-cart-fill"></span></p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-3 py-3 py-md-0">
+                              <div class="card h-100">
+                                    <img src="../public/images/Black coffee.png" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                          <h3 class="card-title">Black Coffee</h3>
+                                          <p class="card-text">$150 <strike>$170</strike><span class="bi bi-cart-fill"></span></p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-3 py-3 py-md-0">
+                              <div class="card h-100">
+                                    <img src="../public/images/Decaf caffee.png" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                          <h3 class="card-title">Decaf Coffee</h3>
+                                          <p class="card-text">$120 <strike>$150</strike><span class="bi bi-cart-fill"></span></p>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+       </section>
+
+       <!-- our gallery -->
+
+       <div class="container" id="gallery">
+            <h1>Our <span>Gallery</span></h1>
+            <div class="row" style="margin-top:50px;">
+                  <div class="col-md-4 py-3 py-md-0">
+                        <div class="card rounded rounded-4">
+                              <img src="../public/images/image1.png" alt="" class="rounded rounded-4">
+                        </div>
+                  </div>
+                  <div class="col-md-4 py-3 py-md-0">
+                        <div class="card rounded rounded-4">
+                              <img src="../public/images/image2.png" alt="" class="rounded rounded-4">
+                        </div>
+                  </div>
+                  <div class="col-md-4 py-3 py-md-0">
+                        <div class="card rounded rounded-4">
+                              <img src="../public/images/image3.png" alt="" class="rounded rounded-4">
+                        </div>
+                  </div>
+                  <div class="col-md-4 py-3 py-md-0">
+                        <div class="card rounded rounded-4">
+                              <img src="../public/images/image4.png" alt="" class="rounded rounded-4">
+                        </div>
+                  </div>
+                  <div class="col-md-4 py-3 py-md-0">
+                        <div class="card rounded rounded-4">
+                              <img src="../public/images/image5.png" alt="" class="rounded rounded-4">
+                        </div>
+                  </div>
+                  <div class="col-md-4 py-3 py-md-0">
+                        <div class="card rounded rounded-4">
+                              <img src="../public/images/image6.png" alt="" class="rounded rounded-4">
+                        </div>
+                  </div>
+            </div>
+       </div>
+
+       <!-- contact -->
+
+       <section class="contact" id="contact">
+            <div class="container">
+                  <div class="row">
+                        <div class="col-md-7">
+                              <div class="heading6">Contact <span> Us</span></div>
+                              <p class="fw-bold fs-0 text-black">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem fugit laborum, dolores quaerat dicta aperiam consequuntur qui!<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                              <input class="form-control " type="text" placeholder="Name" ><br>
+                              <input class="form-control" type="email" placeholder="Email"><br>
+                              <input class="form-control" type="number" placeholder="Number"><br>
+                              <button id="contact-btn">Send Message</button>
+                        </div>
+                        <div class="col-md-5" id="col">
+                              <h1>Info</h1>
+                              <p><span class="bi bi-envelope"></span> example@gmail.com</p>
+                              <p><span class="bi bi-phone"></span> +91 9876543210</p>
+                              <p><span class="bi bi-building">India</span></p>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores culpa blanditiis esse?</p>
+                        </div>
+                  </div>
+            </div>
+       </section>
+
+       <!-- blogs -->
+
+       <section class="blogs" id="blog">
+            <h1>Latest <span>Blogs</span></h1>
+            <div class="container">
+                  <div class="row">
+                        <div class="col-md-4 py-3 py-md-0">
+                              <div class="card">
+                                    <img src="../public/images/b1.png" alt="">
+                                    <div class="card-body">
+                                          <h3>Lorem ipsum </h3>
+                                          <h5>Admin / 16 Jan 2010</h5>
+                                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores assumenda nam, in ex beatae ea? Quis odio delectus, illo quos, voluptates quam commodi neque veritatis temporibus ut deserunt reiciendis fuga. dolor sit amet consectetur, adipisicing elit.</p>
+                                          <button id="blogbtn">Read More.</button>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4 py-3 py-md-0">
+                              <div class="card">
+                                    <img src="../public/images/b2.png" alt="">
+                                    <div class="card-body">
+                                          <h3>Lorem ipsum </h3>
+                                          <h5>Admin / 5 Sept 2020</h5>
+                                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores assumenda nam, in ex beatae ea? Quis odio delectus, illo quos, voluptates quam commodi neque veritatis temporibus ut deserunt reiciendis fuga. dolor sit amet consectetur, adipisicing elit. </p>
+                                          <button id="blogbtn">Read More.</button>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4 py-3 py-md-0">
+                              <div class="card">
+                                    <img src="../public/images/b3.png" alt="">
+                                    <div class="card-body">
+                                          <h3>Lorem ipsum </h3>
+                                          <h5>Admin / 2 March 2020</h5>
+                                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores assumenda nam, in ex beatae ea? Quis odio delectus, illo quos, voluptates quam commodi neque veritatis temporibus ut deserunt reiciendis fuga. dolor sit amet consectetur, adipisicing elit. </p>
+                                          <button id="blogbtn">Read More.</button>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+       </section>
+
+       <!-- footer -->
+
+       <footer class="footer" id="footer">
+            <div class="footer-logo text-center"><img src="../public/images/logo.png" alt="">
+            <div class="social-links text-center">
+                  <span class="bi bi-twitter-x"></span>
+                  <span class="bi bi-facebook"></span>
+                  <span class="bi bi-instagram"></span>
+                  <span class="bi bi-youtube"></span>
+                  <span class="bi bi-pinterest"></span>
+            </div>
+            </div>
+            <div class="copyright text-center mt-3">&copy; Copyright <strong><span>Coffee Shop</span></strong>. All Rights Reserved</div>
+       </footer>
+       <a href="#" class="arrow"><i><img src="../public/images/up-arrow.png" alt="" width="50px"></i></a>
+    </div>
+  </body>
+</html>
